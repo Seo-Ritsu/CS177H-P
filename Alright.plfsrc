@@ -1,0 +1,6 @@
+    - global_params:
+      threadpool_size: 64
+    - mount_point: /mnt/plfs
+      workload: shared_file
+      backends:
+        - location: posix:///mnt/lustre/pstore1
